@@ -1,8 +1,8 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies a string
- * @dest: the destination
+ * _strcpy - this command copies a string
+ * @dest: this is the destination
  * @src: the source
  *
  * Return: pointer to destination
@@ -23,7 +23,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strdup - duplicates a string
+ * _strdup - this command duplicates a string
  * @str: the string to duplicate
  *
  * Return: pointer to the duplicated string
@@ -46,7 +46,7 @@ char *_strdup(const char *str)
 }
 
 /**
- * _puts - prints an input string
+ * _puts - this command prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing
