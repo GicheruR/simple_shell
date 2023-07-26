@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * is_chain - this command is used to test if current char in buffer is a chain delimeter
+ * is_chain - used to test if current delimiter is there
  * @info: this is the parameter struct
  * @buf: the char buffer
  * @p: address of current position in buf
@@ -36,7 +36,7 @@ int is_chain(info_t *info, char *buf, size_t *p)
 }
 
 /**
- * check_chain - this command checks we should continue chaining based on last status
+ * check_chain - checks we should continue chaining based on last status
  * @info: this is the parameter struct
  * @buf: the char buffer
  * @p: address of current position in buf
